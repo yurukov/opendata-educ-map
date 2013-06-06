@@ -1,0 +1,79 @@
+body {
+	font-size: 0.9em;
+	font-family: Tahoma,Georgia,Arial;
+}
+
+#content {
+	margin: 0 auto; 
+	width:900px;
+}
+
+#docu h2 {
+	text-align:center;
+}
+
+#docu .column {
+	position: relative;
+	text-align:justify;
+	width: 46%;
+	padding: 1%;
+	margin:30px 0;
+}
+
+#docu .left {
+	float: left;
+}
+
+#docu .right {
+	float: right;
+	border-left: solid 1px gray;
+	padding-left:3%;
+}
+
+#map{
+	width: 900px; 
+	height: 500px
+}
+
+#map h3 {
+	margin:0;
+	text-align:center;
+	font-size:1.3em;
+}
+
+#chart{
+	width: 900px; 
+	height: 230px;
+	margin:10px 0 50px 0;
+}
+
+#chart .axis path,
+#chart .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+#chart .bar {
+	cursor:pointer;
+}
+
+#chart .bar-val {
+	text-anchor:middle;
+	display:none;
+}
+
+#chart .x.axis .tick {
+  display: none;
+}
+
+#chart .x.axis .tick.focus {
+  display: inline;
+}
+
+.dataswitch {
+	cursor:pointer;
+	background:none;
+	width:50px;
+	height:50px;
+	margin-bottom:10px;
+}
