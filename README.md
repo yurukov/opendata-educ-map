@@ -1,4 +1,4 @@
-Visualisation of data on school kids in Bulgaria
+Charts and data on schools in Bulgaria
 ============
 
 Demo
